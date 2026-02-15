@@ -3,7 +3,7 @@ import java.util.Iterator;
 import java.util.Map;
 import java.util.concurrent.TimeUnit;
 
-public class TwoMaps<K, V> implements AutoCloseable {
+public class Threads<K, V> implements AutoCloseable {
 
     private final Map<K, V> values = new HashMap<>();
     private final Map<K, Long> expiresAtNanos = new HashMap<>();
